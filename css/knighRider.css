@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+
+.box-container{
+    display: flex;
+    padding: 0 100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.box{
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    
+}
+
+button{
+    width: 80px;
+    height: 40px; 
+    border-radius: 10px;  
+    color: white;
+    border: none;
+}
+
+.btn-start{
+    background-color: #0069F7;
+}
+
+.btn-stop{
+    background-color: #F61701;
+}
+
+button:hover{
+    cursor: pointer;
+}
