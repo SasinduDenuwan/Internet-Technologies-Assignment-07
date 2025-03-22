@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: #E3F8F8;
+}
+
+.man-walk{
+    display: flex;
+}
+
+.boy-walking{
+    width: 150px;
+}
+
+.day-night-pic img{
+    width: 250px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 150px;
+    color: rgb(236, 111, 238);
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.boy-text{
+    color: rgb(6, 123, 123);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
